@@ -7,13 +7,20 @@
   --text-alternate-color: #212121;
   --link-active-color: #2196f3;
 }
+* {
+  box-sizing: border-box;
+}
+
 .global-header {
   color: #757575;
+  height: 80px;
 }
 
 body {
   font-family: var(--text-font-family);
   color: #212121;
+  width: 1600px;
+  height: 2348px;
 }
 
 .black {
@@ -45,8 +52,133 @@ em {
 }
 .hero-backround {
   background: #2f303a;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
 }
-
+.hero-title {
+  left: 452px;
+  padding-top: 280px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-button {
+  top: 440px;
+  margin-left: 720px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.what-we-do-h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.what-we-do-li {
+  margin-left: 215px;
+}
+.our-team {
+  background: #f5f4fa;
+}
+.our-team-title {
+  padding-top: 94px;
+}
+.our-team-img {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 215px;
+  margin-right: 215px;
+}
+.our-team-img ul li + li {
+  margin-right: 50px;
+}
+.our-team-img-1,
+.our-team-img-2,
+.our-team-img-3,
+.our-team-img-4 {
+  padding-right: 30px;
+  display: flex;
+}
+.backround-our-team-img {
+}
+.what-we-do-p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  width: 270px;
+  height: 75px;
+  left: 1115px;
+  margin-top: 10px;
+}
+.title-black {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.what-we-do-title {
+  width: 198px;
+  height: 42px;
+  margin-left: 701px;
+  margin-top: 94px;
+}
+.what-we-do ul {
+  display: flex;
+  margin-top: 94px;
+}
+.what-we-do ul li + li {
+  margin-left: 30px;
+}
+.what-we-do-img {
+  display: flex;
+  margin-left: 215px;
+}
+.what-we-do-img-1 {
+  width: 370px;
+  height: 294px;
+  margin-top: 50px;
+}
+.what-we-do-img-2 {
+  width: 370px;
+  height: 294px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.what-we-do-img-3 {
+  width: 370px;
+  height: 294px;
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-right: 215px;
+}
+.global-header .header-div-ul {
+  display: flex;
+  padding-inline-start: 0;
+}
 .global-header a {
   font-family: var(--text-font-family);
   font-size: 14px;
@@ -54,6 +186,10 @@ em {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-align: left;
+}
+.box {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .active {
   color: var(--link-active-color);
@@ -102,6 +238,33 @@ a:active {
 a:hover,
 a:focus {
   color: #2196f3;
+}
+.webstudio-logo {
+  padding-right: 93px;
+  padding-left: 215px;
+  padding-top: 24px;
+}
+.main-navigation,
+.email-phone {
+  margin-top: 32px;
+}
+.email-phone {
+  display: flex;
+  margin-left: 385px;
+  padding-right: 215px;
+}
+.global-header .email-phone a + a {
+  margin-left: 40px;
+}
+.global-header .header-div-ul ul li + li {
+  margin-left: 50px;
+}
+.global-header-box {
+  display: flex;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
 }
 
 ul,
