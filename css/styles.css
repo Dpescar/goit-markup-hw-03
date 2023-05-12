@@ -102,15 +102,6 @@ em {
   margin-left: 215px;
   margin-top: 30px;
 }
-.portofolio-projects-column-1 li + li {
-  padding-left: 30px;
-}
-.portofolio-projects-column-2 li + li {
-  padding-left: 30px;
-}
-.portofolio-projects-column-3 li + li {
-  padding-left: 30px;
-}
 .hero {
   width: 1600px;
   height: 600px;
@@ -123,6 +114,25 @@ em {
   height: 600px;
   left: 0px;
   top: 80px;
+}
+.card-border {
+  border: 1px solid #eeeeee;
+}
+.Poster-New-Orlean-vs-Golden-Star {
+  border: 1px solid #eeeeee;
+}
+.card-space {
+  padding-left: 30px;
+}
+.portofolio-hero h4,
+.portofolio-hero em {
+  margin-left: 24px;
+}
+.portofolio-hero h4 {
+  margin-top: 20px;
+}
+.portofolio-hero em {
+  margin-top: 4px;
 }
 .hero-title {
   left: 452px;
