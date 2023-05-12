@@ -25,10 +25,10 @@ body {
   width: 1600px;
   height: 2348px;
 }
-.button {
-  background: #2196f3;
+button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 }
 
 .black {
@@ -57,6 +57,59 @@ h6,
 em {
   font-family: var(--text-font-family);
   color: #757575;
+}
+.index-what-we-do-our-team-distance {
+  margin-top: 94px;
+}
+.portofolio-hero-footer-distace {
+  margin-top: 94px;
+}
+.portofolio-hero-buttons {
+  display: flex;
+  margin-top: 100px;
+}
+.portofolio-hero-buttons {
+  margin-right: 8px;
+}
+.portofolio-hero-button-1 {
+  margin-left: 564px;
+  margin-right: 8px;
+}
+.portofolio-hero-button-2 {
+  margin-right: 8px;
+}
+.portofolio-hero-button-3 {
+  margin-right: 8px;
+}
+.portofolio-hero-button-4 {
+  margin-right: 8px;
+}
+.portofolio-hero-button-5 {
+  margin-right: 564px;
+}
+.portofolio-projects-column-1 {
+  display: flex;
+  margin-left: 215px;
+  margin-top: 50px;
+}
+.portofolio-projects-column-2 {
+  display: flex;
+  margin-left: 215px;
+  margin-top: 30px;
+}
+.portofolio-projects-column-3 {
+  display: flex;
+  margin-left: 215px;
+  margin-top: 30px;
+}
+.portofolio-projects-column-1 li + li {
+  padding-left: 30px;
+}
+.portofolio-projects-column-2 li + li {
+  padding-left: 30px;
+}
+.portofolio-projects-column-3 li + li {
+  padding-left: 30px;
 }
 .hero {
   width: 1600px;
@@ -160,9 +213,45 @@ em {
 .our-team-img-li {
   display: flexbox;
   color: #ffffff;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .our-team-img-backround {
   background-color: #ffffff;
+  margin-top: 30px;
+}
+.index-our-team-ul-li-h4-1 {
+  margin-left: 63px;
+}
+.index-our-team-ul-li-h4-2 {
+  margin-left: 92px;
+}
+.index-our-team-ul-li-h4-3 {
+  margin-left: 91px;
+}
+.index-our-team-ul-li-h4-4 {
+  margin-left: 90px;
+}
+.index-our-team-ul-li-em-1 {
+  margin-left: 70px;
+  margin-top: 10px;
+}
+.index-our-team-ul-li-em-2 {
+  margin-left: 62px;
+  margin-top: 10px;
+}
+.index-our-team-ul-li-em-3 {
+  margin-left: 97px;
+  margin-top: 10px;
+}
+.index-our-team-ul-li-em-4 {
+  margin-left: 92px;
+  margin-top: 10px;
+}
+.footer-backround {
+  background: #ececec;
 }
 .what-we-do-p {
   font-family: "Roboto";
@@ -298,6 +387,13 @@ a:active {
 }
 .footer-mail:hover {
   forced-color-adjust: red;
+}
+.line {
+  width: 1600px;
+  height: 0px;
+  left: 0px;
+  top: 80px;
+  border: 1px solid #ececec;
 }
 a:hover,
 a:focus {
